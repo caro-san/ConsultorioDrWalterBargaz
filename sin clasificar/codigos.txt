@@ -1,1 +1,0 @@
-<img src="URL de la imagen UNO" onmouseover="this.src='URL de la imagen DOS';" onmouseout="this.src='URL de la imagen UNO';"/>
