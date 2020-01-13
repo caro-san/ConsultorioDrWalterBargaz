@@ -7,7 +7,35 @@ body{
 }
 
 
+
+
+/******* ESTILOS LOGO INICIAL *********/
+.img-up{
+    margin: auto;
+}
+
 /****** ESTILOS NAVBAR ******/
+
+
+
+header div nav{
+    background-color: #0c084c;
+    color: #fff;
+}
+
+div .dropdown-item:hover{
+    background-color: #0c084c;
+    color: #fff;
+}
+
+/**** Estilos Contenido Home ****/
+
+.img-content{
+    margin: 400px 0;
+    
+
+}
+
 
 /*
 .navbar-nav li.active > a{
@@ -15,6 +43,8 @@ body{
     font-weight: bold;
 }
 */
+
+/*
 
 .navbar-brand{
     color: #fff;
@@ -37,7 +67,7 @@ body{
     color: #6fc2d0;
 }
 
-.navbar-expand-md .navbar-nav .dropddown-menu{
+.navbar-expand .navbar-nav .dropddown-menu{
     border-top: 3px solid #0c084c;
 }
 
@@ -82,6 +112,7 @@ nav{
 	color:#fff;
 }
 
+*/
 
 /****** Estilos de la Galeria *********/
 
@@ -127,7 +158,7 @@ nav{
 .casos .galeria .contenedor-imagen a{
     background: #3da5e2;
     display: inline-block;
-     box-shadow: 0 1px 0 black;
+    box-shadow: 0 1px 0 black;
 }
 
 .casos .galeria .contenedor-imagen:hover img{
@@ -221,6 +252,21 @@ nav{
     letter-spacing: 1px;
 }
 
+/***** CONSULTORIO *****/
+
+.consultorio .titulo-consult{
+    color: #005385;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.consultorio .consult-resumen{
+    letter-spacing: 1px;
+    
+}
+
 
 /***** CONTACTO *****/
 
@@ -254,7 +300,9 @@ nav{
 
 /** Banner **/
 
-.image-contacto-banner{
+
+
+div .image-contacto-banner{
     background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../imagenes/fondos/fondo2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -262,6 +310,7 @@ nav{
     color: #fff;
     padding-top: 110px;
     padding-bottom: 110px;
+    border-radius: 5px solid black;
 }
 
 .lg-text{
@@ -298,7 +347,7 @@ nav{
 .contact-section-map{
     padding: 20px 10px;
     padding-bottom: 3px;
-    border-bottom: 3px solid #0c084c;
+    /*border: 3px solid #0c084c;*/
     
 }
 
@@ -327,8 +376,9 @@ nav{
 /******  ESTILOS REDES SOCIALES  *******/
 
 .redes-sociales{
-    padding: 40px 0;
-    margin: 40px;
+    padding: 20px 0;
+    margin: 20px;
+    width: 100%;
 }
 
 .redes-sociales .icono{
@@ -405,6 +455,15 @@ footer a:hover{
     }
     
 }
+
+
+
+
+
+
+
+
+
 
 /* Dispositivo MD */
 @media screen and (max-width:767px){

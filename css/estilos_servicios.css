@@ -1,4 +1,47 @@
 
-
-
 /******** Estilos Card´s Servicios **********/
+
+
+
+main .main-servicios{
+    padding-bottom: 10px;
+}
+
+.h-section1{
+    margin-top: -15%;
+    padding: 10%;
+}
+
+.h-section1 .h-text{
+    line-height: 100%;
+}
+
+.h-section1 h4{
+    color: #ffa500;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.h-section1 .subtitle{
+    color: #3631af;
+    font-size: 20px;
+}
+
+.card{
+    min-height: 200px;
+}
+
+.h-section1 .row{
+    margin-top: 10%;
+}
+
+div .h-img{
+    text-align: center;
+    
+}
+
+div .h-img {
+    width: 60%;
+    margin: auto;
+    
+}

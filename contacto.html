@@ -3,13 +3,15 @@
     <head>
         <!-- META -->
         <meta charset="utf-8">
-        <meta name="viewport" content="width-device-width, initial-scale-1, shrink-to-fit-no">
-        <meta http-equiv="x-ua-compatible" content="ie-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
         <!-- BOOTSTRAP -->
         <link rel="stylesheet" href="css/bootstrap.css">
         <!-- Estilos CSS-->
         <link rel="stylesheet" href="css/estilos.css">
         <link rel="stylesheet" href="css/fontello.css">
+        <!--Estilo Ancla-->
+        <link rel="stylesheet" href="css/font_ancla.css">
         <!-- Font Awesome -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
         <!-- Favicon -->
@@ -19,47 +21,52 @@
     </head>
     <body>
        
-        <!--Menu y Logo 2 - Navigation -->
-       <nav class="navbar navbar-expand-md navbar-dark fixed-top" id="banner-sh">
-           <div class="container">
-               <!--Brand -->
-               <a class="navbar-brand" href="index.html"><span><img src="imagenes/logo/logo2w.png" width="212" height="75"></span></a>
-               
-               <!-- Toggler/Collapse/Button-->
-               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse-navbar">
-                   <span class="navbar-toggler-icon"></span>
-               </button>
-               
-               <!--Navbar links -->
-               <div class="collapse navbar-collapse" id="collapse-navbar">
-                   <ul class="navbar-nav ml-auto">
-                       <li class="nav-item active">
-                           <a class="nav-link" href="index.html">Inicio</a>
-                       </li>
-                       <!--Dropdown-->
-                       <li class="nav-item dropdown">
-                       <a class="nav-link dropdown-toggle" href="servicios.html" id="navbar-drop" data-toggle="dropdown">Servicios</a>
-                           <div class="dropdown-menu">
-                               <a class="dropdown-item" href="servicios.html">Implantologia</a>
-                               <a class="dropdown-item" href="servicios.html">Carillas</a>
-                               <a class="dropdown-item" href="servicios.html">Estetica</a>
-                               <a class="dropdown-item" href="servicios.html">Periodoncia</a>
-                               <a class="dropdown-item" href="servicios.html">Protesis</a>
-                               <a class="dropdown-item" href="servicios.html">Limpieza</a>
-                               <a class="dropdown-item" href="servicios.html">Caries</a>
-                               <a class="dropdown-item" href="servicios.html">Endodoncia</a>
-                               <li class="nav-item">
-                                   <a class="nav-link" href="galeria.html">Galeria</a>
-                               </li>
-                                <li class="nav-item">
-                                   <a class="nav-link" href="contacto.html">Contacto</a>
-                               </li>
-                            </div>
-                       </li>
-                   </ul>
-               </div>
-           </div>
-        </nav>
+        <!-- Navbar -->
+    <header class="sticky-top position-sticky">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-dark rounded">
+              <a class="navbar-brand" href="index.html">
+                <img src="imagenes/logo/logo2w.png" width="212" height="75">
+              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio
+                      <span class="sr-only">(current)</span>
+                    </a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                      aria-expanded="false">
+                      Servicios
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="servicios.html">Implantologia</a>
+                        <a class="dropdown-item" href="servicios.html">Carillas</a>
+                        <a class="dropdown-item" href="servicios.html">Estetica</a>
+                        <a class="dropdown-item" href="servicios.html">Periodoncia</a>
+                        <a class="dropdown-item" href="/servicios.html">Protesis</a>
+                        <a class="dropdown-item" href="servicios.html">Limpieza</a>
+                        <a class="dropdown-item" href="servicios.html">Caries</a>
+                        <a class="dropdown-item" href="servicios.html">Endodoncia</a>
+                      </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="galeria.html">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+              </div>
+            </nav>
+        </div>
+    </header>
+      <!--/Navbar -->
         
         <div class="banner">
             <div class="container">
@@ -70,13 +77,12 @@
         
     <main>
         <!--Banner contacto -->
-        <div class="image-contacto-banner" style="margin-top: 0px">
-            <div class="container">
+        <div class="container pt-3">
+            <div class="image-contacto-banner" style="margin-top: 0px">
                 <div class="row">
                     <div class="col-md-12">
                         <h2 class="lg-text">Contactenos</h2>
                         <p class="image-contacto-text">
-                        
                         </p>
                     </div>
                 </div>
@@ -84,41 +90,42 @@
         </div>
         
         <!-- Datos de contacto y horarios -->
-        <section class="informacion">
-            <div class="container ">
-                <div class="row mt-3">
-                    <div class="col-sm-6">
-                        <h3 class="info-contacto">Informacion de Contacto</h3>
-                        <hr align="left" width="90%">
-                        <h4 class="pt-2">Direccion</h4>
-                        <i class="fa fa-map-marker" style="color: #000"></i> Virrey del pino 2845 5C - Belgrano <br>
-                        <h4 class="pt-2"> Telefonos</h4>
-                        <i class="fa fa-phone" style="color: #000"></i> (54-11) 4774-9089 <br>
-                        <i class="icono icon-whatsapp" style="color: #000"></i> (54-11) 15-6196-5970 <br>
-                        <h4 class="pt-2">E-mail</h4>
-                        <i class="fa fa-envelope" style="color: #000"></i> walterbargaz@yahoo.com.ar <br>
-                    </div>
-                    
-                    <div class="col-sm-6 info-contacto-2">
-                        <h3 class="info-contacto">Horarios</h3>
-                        <hr align="left" width="90%">
-                        <h6 class=""><strong>Lunes:</strong> 10 a 18</h6>
-                        <h6 class=""><strong>Martes:</strong> 14 a 17:30</h6>
-                        <h6 class=""><strong>Miercoles:</strong> 9 a 15</h6>
-                        <h6 class=""><strong>Jueves:</strong> 14 a 19</h6>
-                        <h6 class=""><strong>Viernes:</strong> 9:30 a 15</h6>
-                        <h6 class=""><strong>Sabado:</strong> Cerrado</h6>
-                        <h6 class=""><strong>Domingo:</strong> Cerrado</h6>
+        
+        <div class="container ">
+            <section class="informacion">
+                    <div class="row mt-3 pl-3">
+                        <div class="col-sm-6">
+                            <h3 class="info-contacto">Informacion de Contacto</h3>
+                            <hr align="left" width="90%">
+                            <h4 class="pt-2">Direccion</h4>
+                            <i class="fa fa-map-marker" style="color: #000"></i> Virrey del pino 2845 5C - Belgrano <br>
+                            <h4 class="pt-2"> Telefonos</h4>
+                            <i class="fa fa-phone" style="color: #000"></i> (54-11) 4774-9089 <br>
+                            <i class="icono icon-whatsapp" style="color: #000"></i> (54-11) 15-6196-5970 <br>
+                            <h4 class="pt-2">E-mail</h4>
+                            <i class="fa fa-envelope" style="color: #000"></i> walterbargaz@yahoo.com.ar <br>
+                        </div>
                         
+                        <div class="col-sm-6 info-contacto-2">
+                            <h3 class="info-contacto">Horarios</h3>
+                            <hr align="left" width="90%">
+                            <h6 class=""><strong>Lunes:</strong> 10 a 18</h6>
+                            <h6 class=""><strong>Martes:</strong> 14 a 17:30</h6>
+                            <h6 class=""><strong>Miercoles:</strong> 9 a 15</h6>
+                            <h6 class=""><strong>Jueves:</strong> 14 a 19</h6>
+                            <h6 class=""><strong>Viernes:</strong> 9:30 a 15</h6>
+                            <h6 class=""><strong>Sabado:</strong> Cerrado</h6>
+                            <h6 class=""><strong>Domingo:</strong> Cerrado</h6>
+                            
+                        </div>
                     </div>
-                </div>
-            </div>
-        </section>
+            </section>
+        </div>
         
         
         <!-- Google Mapa-->
-        <div class="contact-section-map">
-            <div class="container-fluid">
+        <div class="container">
+            <div class="contact-section-map">
                 <div class="row">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.403309843369!2d-58.45914488519652!3d-34.56866026315012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5d0b1900ff1%3A0x2801f2a5e8a12656!2sVirrey+del+Pino+2845%2C+C1426+CABA!5e0!3m2!1ses-419!2sar!4v1559589427890!5m2!1ses-419!2sar" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
@@ -143,10 +150,10 @@
         <section>
             <div class="container">
                 <div class="row redes-sociales justify-content-center">
-                    <div class="col-auto">
-                        <a href="https://www.facebook.com/walter.bargaz" class="icono icon-facebook facebook"></a>
-                         <a href="https://www.instagram.com/walterbar5/" class="icono icon-instagram instagram"></a>
-                         <a href="https://api.whatsapp.com/send?phone=5491161965970&text=Hola!%20Gracias%20por%20comunicarte%20con%20el%20Dr. %20Walter%20Bargaz!" class="icono icon-whatsapp whatsapp"></a>
+                    <div class="col-auto m-auto">
+                        <a href="https://www.facebook.com/walter.bargaz" class="icono icon-facebook facebook m-auto"></a>
+                         <a href="https://www.instagram.com/walterbar5/" class="icono icon-instagram instagram m-auto"></a>
+                         <a href="https://api.whatsapp.com/send?phone=5491161965970&text=Hola!%20Gracias%20por%20comunicarte%20con%20el%20Dr. %20Walter%20Bargaz!" class="icono icon-whatsapp whatsapp m-auto"></a>
                     </div>
                 </div>
             </div>
