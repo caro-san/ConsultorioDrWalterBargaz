@@ -1,0 +1,44 @@
+/* Efecto Scroll */
+
+#mainNavbar {
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+nav {
+    background-color: rgba(12, 8, 76, 0.30);
+}
+
+.navbar.scrolled {
+    background: #0c084c;
+    transition: background 500ms
+}
+
+
+/* responsive navbar */
+
+@media screen and (max-width: 600px) {
+
+    nav {
+        background-color: #0c084c;
+        color: white;
+    }
+
+    .navbar a img {
+        width: 60%;
+        height: 60%;
+    }
+
+    .navbar {
+        position: fixed !important;
+    }
+
+
+    .carousel {
+        margin-top: 80px !important;
+
+    }
+
+    .navbar-collapse {
+        max-height: none;
+    }
