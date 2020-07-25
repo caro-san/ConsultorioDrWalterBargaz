@@ -13,12 +13,50 @@ body {
 
 /****** Estilos Navbar *****/
 
+<<<<<<< HEAD
 
 #mainNavbar {
     padding-left: 50px;
     padding-top: 20px;
+=======
+
+
+/******* ESTILOS LOGO INICIAL *********/
+.img-up{
+    margin: auto;
 }
 
+/****** ESTILOS NAVBAR ******/
+
+
+
+header div nav{
+    background-color: #0c084c;
+    color: #fff;
+}
+
+div .dropdown-item:hover{
+    background-color: #0c084c;
+    color: #fff;
+}
+
+/**** Estilos Contenido Home ****/
+
+.img-content{
+    margin: 400px 0;
+    
+
+}
+
+
+/*
+.navbar-nav li.active > a{
+   color: #6fc2d0;
+    font-weight: bold;
+>>>>>>> 4ae881b2dd3db2358451de4c5f99acd1d117c407
+}
+
+<<<<<<< HEAD
 nav {
     background-color: rgba(12, 8, 76, 0.15);
 }
@@ -26,6 +64,16 @@ nav {
 .navbar.scrolled {
     background: #0c084c;
     transition: background 500ms
+=======
+/*
+
+.navbar-brand{
+    color: #fff;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+>>>>>>> 4ae881b2dd3db2358451de4c5f99acd1d117c407
 }
 
 ul li a {
@@ -41,8 +89,13 @@ ul li a.active:after {
     opacity: 1;
 }
 
+<<<<<<< HEAD
 ul li a:hover:after {
     opacity: 1;
+=======
+.navbar-expand .navbar-nav .dropddown-menu{
+    border-top: 3px solid #0c084c;
+>>>>>>> 4ae881b2dd3db2358451de4c5f99acd1d117c407
 }
 
 ul li a:after {
@@ -129,6 +182,7 @@ ul li a:after {
     background-size: cover
 }
 
+*/
 
 /****** Estilos de la Galeria *********/
 
@@ -269,7 +323,11 @@ ul li a:after {
 
 /***** CONSULTORIO *****/
 
+<<<<<<< HEAD
 .consultorio .titulo-consult {
+=======
+.consultorio .titulo-consult{
+>>>>>>> 4ae881b2dd3db2358451de4c5f99acd1d117c407
     color: #005385;
     font-family: sans-serif;
     font-weight: 300;
@@ -277,9 +335,15 @@ ul li a:after {
     margin-bottom: 30px;
 }
 
+<<<<<<< HEAD
 .consultorio .consult-resumen {
     letter-spacing: 1px;
 
+=======
+.consultorio .consult-resumen{
+    letter-spacing: 1px;
+    
+>>>>>>> 4ae881b2dd3db2358451de4c5f99acd1d117c407
 }
 
 
@@ -320,8 +384,13 @@ ul li a:after {
 
 
 
+<<<<<<< HEAD
 div .image-contacto-banner {
     background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("../imagenes/fondos/fondo2.jpg");
+=======
+div .image-contacto-banner{
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../imagenes/fondos/fondo2.jpg");
+>>>>>>> 4ae881b2dd3db2358451de4c5f99acd1d117c407
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -366,7 +435,11 @@ div .image-contacto-banner {
     padding: 20px 10px;
     padding-bottom: 3px;
     /*border: 3px solid #0c084c;*/
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> 4ae881b2dd3db2358451de4c5f99acd1d117c407
 }
 
 /******** NOTA IMPORTANTE ******/
@@ -393,7 +466,11 @@ div .image-contacto-banner {
 
 /******  ESTILOS REDES SOCIALES  *******/
 
+<<<<<<< HEAD
 .redes-sociales {
+=======
+.redes-sociales{
+>>>>>>> 4ae881b2dd3db2358451de4c5f99acd1d117c407
     padding: 20px 0;
     margin: 20px;
     width: 100%;
@@ -471,6 +548,15 @@ footer a:hover {
     }
 
 }
+
+
+
+
+
+
+
+
+
 
 /* Dispositivo MD */
 @media screen and (max-width:767px) {
